@@ -1,0 +1,1 @@
+./spake2p.py gen-verifier --passcode 20202021 --salt U1BBS0UyUCBLZXkgU2FsdA== --iteration-count 1000

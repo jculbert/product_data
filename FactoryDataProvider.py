@@ -24,7 +24,8 @@ import sys
 
 
 class FactoryDataWriter:
-    script_dir = os.path.dirname(__file__)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    print("debug " + script_dir)
     # CONSTANTS
     TEMP_FILE = script_dir + "/tmp_nvm3.s37"
     OUT_FILE = script_dir + "/matter_factorydata.s37"  # Final output file containing the nvm3 data to flash to the device
